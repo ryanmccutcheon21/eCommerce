@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <>
       HeroBanner
-
       <div>
         <h2>Best Selling Products</h2>
         <p>Speakers of many variations</p>
@@ -12,7 +11,6 @@ const Home = () => {
       <div>
         {['Product1', 'Product2'].map(product => product)}
       </div>
-      Footer
     </>
   )
 }
